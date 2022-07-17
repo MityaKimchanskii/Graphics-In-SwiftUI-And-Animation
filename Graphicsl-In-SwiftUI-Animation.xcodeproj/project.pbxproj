@@ -11,6 +11,8 @@
 		3BB50910288487BA00F298BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5090F288487BA00F298BA /* ContentView.swift */; };
 		3BB50912288487BD00F298BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB50911288487BD00F298BA /* Assets.xcassets */; };
 		3BB50915288487BD00F298BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB50914288487BD00F298BA /* Preview Assets.xcassets */; };
+		3BB5091C2884888600F298BA /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5091B2884888600F298BA /* BarGraph.swift */; };
+		3BB5091E28848AA500F298BA /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5091D28848AA500F298BA /* Report.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3BB5090F288487BA00F298BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BB50911288487BD00F298BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BB50914288487BD00F298BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BB5091B2884888600F298BA /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+		3BB5091D28848AA500F298BA /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				3BB5090F288487BA00F298BA /* ContentView.swift */,
 				3BB50911288487BD00F298BA /* Assets.xcassets */,
 				3BB50913288487BD00F298BA /* Preview Content */,
+				3BB5091B2884888600F298BA /* BarGraph.swift */,
+				3BB5091D28848AA500F298BA /* Report.swift */,
 			);
 			path = "Graphicsl-In-SwiftUI-Animation";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB5091C2884888600F298BA /* BarGraph.swift in Sources */,
 				3BB50910288487BA00F298BA /* ContentView.swift in Sources */,
 				3BB5090E288487BA00F298BA /* Graphicsl_In_SwiftUI_AnimationApp.swift in Sources */,
+				3BB5091E28848AA500F298BA /* Report.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
